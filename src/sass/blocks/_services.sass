@@ -1,0 +1,69 @@
+.services
+    min-height: 894px
+    padding: 146px 170px 199px 170px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__title
+        width: 455px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 300
+        font-size: 48px
+        line-height: 56px
+        color: #384656
+    &__subtitle
+        width: 341px
+        font-family: 'Merriweather'
+        font-style: italic
+        font-weight: 300
+        font-size: 20px
+        line-height: 32px
+        color: #97A3B4
+    &__circles
+        position: relative
+        width: 964px
+        display: block
+        margin: 0 auto
+    &__circle
+        position: absolute   
+        width: 272px
+        height: 272px
+        border-radius: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 300
+        font-size: 36px
+        line-height: 40px
+        color: #FFFFFF
+        transition: 0.5s all
+        &:hover
+            transform: translateY(-10%)
+            background: linear-gradient(280.97deg, #591c87 12.74%, #170b5c 88.4%)
+        &_ux
+            top: 84px
+            background: linear-gradient(319.97deg, #B47CE0 12.74%, #5F47ED 88.4%)
+            z-index: 1
+        &_ui
+            top: 111px
+            left: 231px
+            background: linear-gradient(327.62deg, #C387DA 5.21%, #9868ED 91.01%)
+            z-index: 2
+        &_front
+            top: 144px
+            left: 462px
+            background: #384656
+            z-index: 3
+            &:hover
+                background: #446488
+        &_back
+            top: 175px
+            left: 693px
+            background: linear-gradient(328.55deg, #FEBB95 12.12%, #F5A5E3 85.7%)
+            z-index: 4
+            &:hover
+                background: linear-gradient(328.55deg, #9e6c4e 12.12%, #90467f 85.7%)
+                

@@ -1,0 +1,90 @@
+.referens
+    height: 632px
+    border-radius: 10px
+    background: #F0F3F5
+    margin: 30px 30px 0 30px
+    position: relative
+    display: flex
+    justify-content: flex-end
+    &__point
+        position: absolute
+        display: block
+        top: 162px
+        left: -60px
+        z-index: 1
+    &__slider
+        width: 1045px
+        position: relative
+    &__logo 
+        margin-top: 66px
+    &__descr
+        margin-top: 47px
+        font-family: 'Merriweather'
+        font-style: italic
+        font-weight: 300    
+        
+        color: #384656
+        z-index: 2  
+    &__good
+        display: flex
+        justify-content: space-between
+        width: 321px
+        position: absolute
+        right: 0
+        bottom: 30px
+        z-index: 3
+        &::before
+            content: ''
+            position: absolute
+            top: -20px
+            border: 1px solid #707478    
+            width: 321px
+    &__you
+        width: 165px
+    &__btn
+        width: 156px
+        height: 52px
+        border-radius: 40px
+        background: #5978FF
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 36px
+        text-align: center
+        letter-spacing: 0.54px
+        color: #FFFFFF
+        border: none
+
+.swiper-active
+    font-size: 28px
+    width: 57% !important
+    padding-right: 45px
+    line-height: 40px
+    span
+        font-size: 20px
+.swiper-next
+    width: 43% !important
+    padding-left: 45px
+    margin-right: 10px
+    opacity: 0.3
+    font-weight: 300
+    font-size: 20px
+    line-height: 30px
+    color: #384656
+    span
+        font-size: 14px
+
+
+.swiper-pagination
+    text-align: left !important
+    bottom: 50px !important
+    &-bullet 
+        width: 26px !important
+        height: 3px !important
+        background: #DDE2E6 !important
+        border-radius: none !important
+        border-radius: 0 !important
+        &-active 
+            background: #5978FF !important
+    

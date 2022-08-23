@@ -1,0 +1,120 @@
+.features
+    padding: 111px 0 123px 0
+    background: #F0F3F5
+    &__wrapper
+        position: relative
+        width: 100%    
+    &__title
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 300
+        font-size: 48px
+        line-height: 56px
+        color: #384656
+        max-width: 408px
+        margin-bottom: 69px
+    &__items
+        position: relative
+        max-width: 563px
+        display: flex
+        flex-wrap: wrap
+    &__item
+        position: relative
+        width: 50%
+        display: flex
+        justify-content: flex-start 
+        margin-bottom: 50px   
+        &::before
+            content: ''
+            position: absolute
+            top: -10px
+            left: 0
+            border: 0px 
+            border-bottom: 1px
+            border-color: #DDE2E6
+            border-style: solid
+            height: 2px
+            width: 75%
+        &:nth-child(7)
+            margin-bottom: 0
+        &:nth-child(8)
+            margin-bottom: 0            
+    &__btn
+        margin-top: 62px
+        width: 171px
+        height: 55px
+        background: rgba(89, 120, 255, 0.1)  
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 36px
+        display: flex
+        align-items: center
+        justify-content: center
+        letter-spacing: 0.54px
+        color: #5978FF
+        border: none
+        border-radius: 30px 
+    &__cloud
+        display: none
+        position: absolute
+        top: 60px
+        left: 40px
+        transform: rotate(42deg)
+        transition: 0.1s all
+    &__mark
+        display: none
+        position: absolute
+        top: 50px
+        left: 29px
+        transform: rotate(42deg)
+        transition: 0.1s all
+    &__card
+        position: absolute
+        height: 181px
+        width: 155px
+        transform: skew(47deg, -32deg)
+        border-radius: 20px
+        right: 50px
+        transition: 0.3s all
+        &_hidden
+            opacity: 0.1
+        &_1
+            top: 65px
+            background-color: #7554EA
+            z-index: 8
+        &_2
+            top: 110px
+            background-color: #9167E5
+            z-index: 7
+        &_3
+            top: 150px
+            background-color: #A06EE9
+            z-index: 6
+        &_4
+            top: 190px
+            background-color: #B17AE2
+            z-index: 5
+        &_5
+            top: 230px
+            background-color: #BE84DC
+            z-index: 4
+        &_6
+            top: 270px
+            background-color: #D392D1
+            z-index: 3
+        &_7
+            top: 310px
+            background-color: #ECA5C4
+            z-index: 2
+        &_8
+            top: 350px
+            background-color: #FCB4AD
+            z-index: 1
+    &__shadow
+        position: absolute
+        right: -55px
+        bottom: -15px   
+        
+        
