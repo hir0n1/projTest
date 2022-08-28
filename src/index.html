@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.min.css">
     <title>TEST</title>
 </head>
 <body>
@@ -35,6 +35,37 @@
                 </div>
             </div>
     </header>
+    <div class="header__hamburger hamburger">
+        <div class="hamburger__logo"><img src="./icons/shape.png" alt="TEST"></div>
+        <div class="hamburger__close js-close">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="hamburger__body js-hamburger">
+            <nav>
+                <ul class="hamburger__nav">
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a class="header__lang">
+                        eng
+                        <img src="./icons/Rectangle.png" alt="">
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="hamburger__wrapper">
+                <div class="hamburger__social">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <button class="hamburger__partner">Become a partner</button>
+                <button class="hamburger__get">Get started</button>
+            </div>
+        </div>
+    </div>
     <main>
         <section class="main">          
                 <div class="main__arrows">
@@ -114,8 +145,8 @@
                                 <li class="solutions__tab js-tab">Ut enim ad minim veniam</li>
                         </ul>
                     </div>
-                    <div class="solutions__prev"> > </div>
-                    <div class="solutions__next"> < </div>
+                    <div class="solutions__prev"> &gt; </div>
+                    <div class="solutions__next"> &lt; </div>
                     <div class="solutions__wrapper swiper-wrapper tabs-content">                         
                         <div class="solutions__slide solutions__slide_1 swiper-slide">
                             <img src="./img/mountain1 (2).jpg" alt="">
@@ -125,11 +156,31 @@
                                 <a class="solutions__btn">Learn more</a>
                             </div>
                         </div>
-                        <div class="solutions__slide solutions__slide_2 swiper-slide"><img src="./img/mountain2.jpg" alt=""></div>
-                        <div class="solutions__slide solutions__slide_3 swiper-slide"><img src="./img/mountain3.jpg" alt=""></div>
-                        <div class="solutions__slide solutions__slide_4 swiper-slide"><img src="./img/mountain4.jpg" alt=""></div>
-                        <div class="solutions__slide solutions__slide_5 swiper-slide"><img src="./img/mountain5.jpg" alt=""></div>
-                        <div class="solutions__slide solutions__slide_6 swiper-slide"><img src="./img/mountain6.jpg" alt=""></div>
+                        <div class="solutions__slide solutions__slide_2 swiper-slide"><img src="./img/mountain2.jpg" alt=""><div class="container">
+                            <div class="solutions__subtitle">Consectetur adipiscing elit</div>
+                            <div class="solutions__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                            <a class="solutions__btn">Learn more</a>
+                        </div></div>
+                        <div class="solutions__slide solutions__slide_3 swiper-slide"><img src="./img/mountain3.jpg" alt=""><div class="container">
+                            <div class="solutions__subtitle">Consectetur adipiscing elit</div>
+                            <div class="solutions__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                            <a class="solutions__btn">Learn more</a>
+                        </div></div>
+                        <div class="solutions__slide solutions__slide_4 swiper-slide"><img src="./img/mountain4.jpg" alt=""><div class="container">
+                            <div class="solutions__subtitle">Consectetur adipiscing elit</div>
+                            <div class="solutions__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                            <a class="solutions__btn">Learn more</a>
+                        </div></div>
+                        <div class="solutions__slide solutions__slide_5 swiper-slide"><img src="./img/mountain5.jpg" alt=""><div class="container">
+                            <div class="solutions__subtitle">Consectetur adipiscing elit</div>
+                            <div class="solutions__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                            <a class="solutions__btn">Learn more</a>
+                        </div></div>
+                        <div class="solutions__slide solutions__slide_6 swiper-slide"><img src="./img/mountain6.jpg" alt=""><div class="container">
+                            <div class="solutions__subtitle">Consectetur adipiscing elit</div>
+                            <div class="solutions__descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+                            <a class="solutions__btn">Learn more</a>
+                        </div></div>
                     </div>                    
                 </div>
         </section>
@@ -167,7 +218,7 @@
                 <div class="swiper-pagination"></div>
                 <div class="referens__good">
                     <div class="referens__you">
-                        You’re in a good company!
+                        You`re in a good company!
                     </div>
                     <button class="referens__btn">
                         Get started
@@ -191,7 +242,6 @@
                         <div class="news__subtitle">
                             <span>Company becomes the General Partner of the eCom21 conference</span><br>
                             <div class="news__text">Company, the most advanced processing centre in the Baltic States and a provider of end-to-end solutions for payment processing, internet acquiring and ...</div>
-                            <br>
                             <div class="news__date">10 oct 2016</div>
                         </div>
                     </div>
@@ -229,6 +279,37 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__icons">
+                <img src="./img/footerIcon1.png" alt="">
+                <img src="./img/footerIcon5.png" alt="">
+                <img src="./img/footerIcon4.png" alt="">
+                <img src="./img/footerIcon3.png" alt="">
+                <img src="./img/footerIcon2.png" alt="">
+            </div>
+        </div>    
+            <div class="footer__wrapper">
+                <div class="container">
+                    <ul class="footer__contacts">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Cookie policy</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#"><img src="./img/footerSearch.svg" alt=""></a></li>
+                    </ul>
+                    <div class="footer__rights">All rights reserved. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                    <div class="footer__copy">
+                        <div class="footer__year">© 2021</div>
+                        <div class="footer__snow"><img src="./img/snow.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        
+    </footer>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>

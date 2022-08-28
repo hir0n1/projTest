@@ -1,9 +1,9 @@
 .main
     position: relative
-    height: 866px
-    padding-top: 211px
-    max-width: 100% 
+    padding-top: 119px
+    max-width: 1360px
     margin: 0 auto
+    min-height: 747px
     &__arrows   
         overflow: hidden
         position: absolute
@@ -12,29 +12,37 @@
         left: 50%
         transform: translateX(-50%)
         background: #83A0F3
-        height: 747px  
+        min-height: 747px  
         width: 100%
+        user-select: none
+    &__wrapper 
+        padding-top: 97px
     &__first
         position: absolute
         z-index: 2
         animation: arrow 3s 
+        user-select: none
     &__sec
         position: absolute
         z-index: 3
         top: 180px
         animation: arrow 3.5s 
+        user-select: none
     &__third
         position: absolute
         z-index: 1
         top: 160px
-        width: 100%
+        left: 0
+        width: 105%
         height: 63%
         animation: arrow 2s 
+        user-select: none
     &__fourth
         position: absolute
         z-index: 3
         left: 0px
         bottom: 0px
+        user-select: none
         animation: arrow 1.9s
     &__title
         width: 411px
